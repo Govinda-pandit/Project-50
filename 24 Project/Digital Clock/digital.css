@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: coral;
+    border-radius: 20px;
+}
+
+.container{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+h1{
+    font-size: 3rem;
+    margin: 10px;
+    /* background-color: azure; */
+    
+}
+
+.time{
+    font-size: 3rem;
+    margin: 20px;
+}
+
+

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* height ke badle min-height use karna better hai */
+    background-color: #f0f0f0; /* Page ko halka background color de sakte hain */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 600px; /* Thodi height kam ki hai better view ke liye */
+    width: 200px;
+    margin: 10px;
+    border-radius: 24px;
+    color: white; /* Text color ko white kar diya */
+    cursor: pointer; /* Hover par cursor change hoga */
+    transition: width 0.5s ease; /* Smooth transition effect */
+    
+    /* Background properties ko yahan combine kar diya */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* h1 ko position karne ke liye flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* h1 ko neeche align karega */
+}
+
+/* Jab mouse .box par jayega toh woh thoda bada ho jayega */
+.active {
+    width: 400px;
+}
+
+/* Specific background images */
+.mumbai {
+    background-image: url(img/pic1.webp);
+}
+.quebec {
+    background-image: url(img/pic2.webp);
+}
+.bangkok {
+    background-image: url(img/pic3.webp);
+}
+.spain {
+    background-image: url(img/pic4.webp);
+}
+.tokyo {
+    background-image: url(img/pic5.webp);
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    /* border-bottom-left-radius: 24px; /* Corners ko box ke sath match kiya */
+    /* border-bottom-right-radius: 24px; */ 
+}

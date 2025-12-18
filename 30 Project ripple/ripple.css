@@ -1,0 +1,43 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.btn{
+    height: 70px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    position: relative;
+    /* background-size: cover;
+     */
+    overflow: hidden;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgba(65, 174, 236, 0.651);
+    position: absolute;
+    animation: anime 0.5s linear;
+    transform: scale(0);
+}
+
+
+@keyframes anime {
+    to{
+        opacity: 0;
+        transform: scale(4)
+    }
+}

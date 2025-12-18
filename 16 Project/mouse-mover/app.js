@@ -1,0 +1,8 @@
+const x = document.querySelector(".x");
+const y = document.querySelector(".y");
+
+window.addEventListener("mousemove",(event)=>{
+    console.log(event);
+    x.textContent = event.clientX;
+    y.textContent = event.clientY
+})

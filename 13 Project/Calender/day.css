@@ -1,0 +1,53 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(59, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: wheat;
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    border: 3px solid black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.month{
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px 20px 0 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 0; */
+
+}
+
+.day{
+    font-size: 1.9rem;
+    margin: 20px 0 0 0;
+    
+}
+
+.date{
+    font-size: 9rem;
+    font-weight: bold;
+}
+
+.year{
+    font-size: 1.3rem;
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    /* background-color:; */
+    position: relative;
+    width: 100px;
+    height: 100px;
+    /* background-color: white; */
+}
+
+.box1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-right: 50px solid yellow;
+    bottom: 0;
+    right: 0;
+     /* Naya animation lagaya gaya hai */
+    animation: rotateBox1 4s infinite;
+    /* Animation ko steps mein chalane ke liye */
+    animation-timing-function: steps(4, end);
+}
+
+.box2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-right: 50px solid yellow;
+    bottom: 0;
+    right: 0;
+     /* Naya animation lagaya gaya hai */
+    animation: rotateBox2 4s infinite;
+    /* Animation ko steps mein chalane ke liye */
+    animation-timing-function: steps(4, end);
+
+}
+
+/* KEYFRAME FOR BOX 1 */
+@keyframes rotateBox1 {
+    /* Box 1 pehle aadhe time (0% se 50%) mein ghumega */
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    /* Baaki aadhe time (50% se 100%) apni jagah par ruka rahega */
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* KEYFRAME FOR BOX 2 */
+@keyframes rotateBox2 {
+    /* Box 2 pehle aadhe time (0% se 50%) ruka rahega */
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    /* Aakhiri aadhe time (50% se 100%) mein ghumega */
+    100% {
+        transform: rotate(360deg);
+    }
+}

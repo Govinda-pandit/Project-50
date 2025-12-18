@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background: rgb(48, 48, 48);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+    
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+#search{
+    width: 50%;    
+    height: 2.5rem;
+    /* margin-left: 10px; */
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+button{
+    width: 10%;
+    height: 2.5rem;
+    font-size: 18px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#imagecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* height: 200px;
+    width: 200px; */
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container{
+    background-color: lightcyan;
+    border-radius: 20px;
+    height: 50%;
+    width: 500px;
+    text-align: center;
+    box-shadow: 10px 8px 8px;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.calender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: 30px;
+
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 20px;
+    border: none;
+}
+
+.calculate{
+    font-size: 1.8rem;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 5px 5px gray;
+}
+
+.text{
+    font-size: 2rem;
+    margin: 20px;
+}

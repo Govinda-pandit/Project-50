@@ -1,0 +1,32 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container{
+    height: 140px;
+    width: 1080px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 0 0 5px;
+}
+
+.sqaure{
+    /* border: black solid; */
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    margin: 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px;
+
+}

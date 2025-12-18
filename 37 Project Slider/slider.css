@@ -1,0 +1,49 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    height: 600px;
+    width: 900px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* position: relative; */
+/*  */
+    position: relative;
+}
+
+.img{
+    display: flex;
+    /* overflow: hidden; */
+    
+    
+}
+
+img{
+    
+    /* overflow: hidden; */
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev{
+    position: absolute;
+    top: 40%;
+} 
+
+.next{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}

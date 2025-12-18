@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    /* position: relative; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.mumbai{
+    background-image: url(img/pic1.webp);
+    /* background: no-repeat; */
+}
+.quebec{
+    background-image: url(img/pic2.webp);
+    /* background: no-repeat; */
+}
+.bangkok{
+    background-image: url(img/pic3.webp);
+ /* background: no-repeat; */
+}
+.spain{
+    background-image: url(img/pic4.webp);
+}
+.tokyo{
+    background-image: url(img/pic5.webp);
+}
+.box{
+    height: 900px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 24px;
+    background: no-repeat;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    /* height: 60px; */
+    /* background:  no-repeat ; */
+
+}
+
+.active{
+    /* width: 800px; */
+}

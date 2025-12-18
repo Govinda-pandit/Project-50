@@ -1,0 +1,27 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    
+
+
+}
+
+button{
+    font-size: 2rem;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+    /* color: white; */
+    cursor: pointer;
+}

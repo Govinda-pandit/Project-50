@@ -1,0 +1,64 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: rgb(176, 240, 167);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 30px;
+
+}
+
+.track{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: 35px;
+    
+
+}
+
+.track input{
+    width: 150%;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+.amount{
+    font-size: 1.6rem;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    box-shadow: 8px 5px 5px  gray;
+    cursor: pointer;
+
+}

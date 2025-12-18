@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong-Password Genreator</title>
+    <link rel="stylesheet" href="password.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="heading">
+            <h1>Password Genreator</h1>
+        </div>
+        <div id="output" class="sitting">
+            <input type="text" id="password" placeholder="Password" class="checkbox" disabled>
+            <button id="copy">copy</button>
+        </div>
+       <div class="box">
+         <div class="sitting">
+            <label id="lenght">Lenght</label>
+            <input type="number" min="5" max="20" value="10" id="lenght-check" class="checkbox">
+        </div>
+
+        <div class="sitting">
+            <label id="Uppercase">Uppercase</label>
+            <input type="checkbox"  class="checkbox" id="uppercase">
+        </div>
+            
+        <div class="sitting">
+            <label id="lowercase-lab">Lowercase</label>
+            <input type="checkbox" class="checkbox" id="lowercase">
+        </div>
+
+        <div class="sitting">
+            <label id="Number-lab">Number</label>
+            <input type="checkbox" class="checkbox" id="number"> 
+        </div>
+
+        <div class="sitting">
+            <label id="Symbol-lab">Symbol</label>
+            <input type="checkbox" class="checkbox" id="symbol">
+        </div>
+       </div>
+        <div id="button">
+            <button id="pass-gen">Genreator</button>
+        </div>
+    </div>
+    <script src="password.js"></script>
+</body>
+</html>

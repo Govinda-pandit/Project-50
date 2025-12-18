@@ -1,0 +1,66 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 235, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: purple;
+    color: white;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    font-size: 1.2rem;
+    /* margin: 10px; */
+}
+
+.data{
+    padding: 10px;
+    /* margin-top: 10px; */
+}
+
+.newtext{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    font-size: 2.9rem;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    font-weight: bolder;
+
+}
+
+.yeartext{
+    display: block;
+    font-size: 7rem;
+    font-weight: bolder;
+    /* margin: 10px 0 10px 0; */
+}
+
+p{
+    font-size: 2rem;
+    font-weight: bolder;
+}

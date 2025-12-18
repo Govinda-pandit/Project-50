@@ -1,0 +1,18 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#breakout{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid ;
+    box-shadow: 0 0 20px ;
+}

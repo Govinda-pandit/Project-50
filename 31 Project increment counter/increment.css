@@ -1,0 +1,38 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.counter-box{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+    height: 300px;
+    width: 250px;
+    box-shadow: 10px 9px 8px gray;
+}
+
+span{
+    font-size: 1.8rem;
+}
+
+.counter{
+    font-size: 4rem;
+}

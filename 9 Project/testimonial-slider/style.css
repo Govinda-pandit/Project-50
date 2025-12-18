@@ -1,0 +1,43 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+#container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+
+#image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 177px;
+    right: 858px;
+}
+
+.para{
+    margin: 200px 30px 30px 30px;
+}
+
+.subtitle{
+    margin-left: 40%;
+    font-size: 1.2rem;
+}
